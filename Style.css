@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8D6D9; /* Baby pink color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.teddy {
+    width: 200px;
+    height: auto;
+    animation: bounce 1.5s infinite;
+}
+
+.heading {
+    font-size: 30px;
+    color: #5C4B51;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #FFB6C1; /* Light pink */
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Hot pink */
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5C4B51;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
