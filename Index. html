@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <!-- Replace with your actual images -->
+            <img src="your_photo.jpg" alt="Your Photo" class="photo">
+            <img src="valentine_photo.jpg" alt="Valentine Photo" class="photo">
+        </div>
+        <div class="teddy">
+            <img src="teddy.jpg" alt="Cute Teddy">
+        </div>
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
